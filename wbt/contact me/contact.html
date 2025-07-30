@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Me</title>
+  <link rel="stylesheet" href="contact.css">
+</head>
+<body> <hr>
+<header>
+   <a href="../home/home.html">Home</a>   <a>||</a>
+          <a href="../education/education.html">Education</a>   <a>||</a>
+        <a href="../experience/experience.html">Experiences</a>   <a>||</a>
+        <a href="../projects/projects.html">Projects</a>
+  
+        
+       
+    </header>
+<hr>
+  <div class="donation-container">
+    <form method="GET">
+      <h2>Contact Form</h2>
+
+      <div class="formgroup">
+        <label for="fname">First Name<span>*</span></label>
+        <input class="r" type="text" id="fname" name="firstname" required>
+      </div>
+
+      <div class="formgroup">
+        <label for="lname">Last Name<span>*</span></label>
+        <input class="r" type="text" id="lname" name="lastname" required>
+      </div>
+
+      <div class="formgroup">
+        <label for="email">Email<span>*</span></label>
+        <input class="r" type="email" id="email" name="email" required>
+      </div>
+
+      <div class="formgroup">
+        <label for="reason">Reason for Contacting<span>*</span></label>
+        <div>
+          <input type="radio" name="contact_reason" value="Project" required> Project<br>
+          <input type="radio" name="contact_reason" value="Thesis"> Thesis<br>
+          <input type="radio" name="contact_reason" value="Meet & Greet"> Meet & Greet<br>
+        </div>
+      </div>
+
+      <div class="formgroup">
+        <label for="services">Services Interested In:</label>
+        <div>
+          <input type="checkbox" name="service" value="App Development"> App Development<br>
+          <input type="checkbox" name="service" value="Web Development"> Web Development<br>
+        </div>
+      </div>
+
+      <div class="formgroup">
+        <label>Are You Offering a Job?<span>*</span></label>
+        <div>
+          <input type="radio" name="job_offer" value="Yes" required> Yes<br>
+          <input type="radio" name="job_offer" value="No"> No<br>
+        </div>
+      </div>
+
+      <div class="formgroup">
+        <label for="position">Your Position in Company</label>
+        <select name="position" id="position">
+          <option value="" disabled selected hidden>Select</option>
+          <option value="HR">HR</option>
+          <option value="CEO">CEO</option>
+          <option value="GM">GM</option>
+        </select>
+      </div>
+
+      <div class="formgroup">
+        <label for="comment">Comments or Notes</label>
+        <input class="g" type="text" id="comment" name="comment">
+      </div>
+
+      <hr class="hr">
+
+      <div class="formgroup">
+        <label></label>
+        <input class="button" type="reset" value="Reset">&nbsp;
+        <input class="button1" type="submit" value="Submit">
+      </div>
+    </form>
+  </div>
+
+  <footer style="text-align: center; padding: 10px; background-color: #f0f0f0; margin-top: 30px;">
+    <p>&copy; 2025 Muhammad Ashfak Uz-zaman Khan</p>
+</footer>
+
+</body>
+</html>

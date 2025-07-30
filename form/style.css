@@ -1,0 +1,81 @@
+.donation-container {
+    background-color: rgb(233, 233, 233);
+    padding: 15px 20px;
+    border: 1px solid rgb(204, 204, 204);
+    max-width: 850px;
+    margin: auto;
+}
+h2{
+    color: red;
+}
+h3{
+    color: red;
+}
+h4{
+    font-weight: lighter;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(214, 214, 214);
+}
+.formgroup{
+    display: flex;
+    align-items: center;
+    margin-bottom: 5px;
+}
+.formgroup label{
+    font-weight: bold;
+    flex-basis: 280px;
+    text-align: right;
+    margin-right: 10px;
+}
+.font-color{
+    color:rgb(139, 139, 139);
+}
+
+
+span{
+    color: red;
+}
+span.instructions{
+    font-weight: lighter;
+}
+.instructions{
+    font-size: 0.7em;
+    color: #333;
+    margin: 0;
+}
+input.f{
+    height: 15px;
+    width: 50px;
+}
+input.r{
+    height: 15px;
+    width: 220px;
+}
+input.g{
+    height: 70px;
+    width: 300px;
+}
+
+.hr{
+    border: 5px solid white;
+}
+
+.button{
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+  
+}
+
+.button1{
+    height: 40px;
+    width: 80px;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+}
+

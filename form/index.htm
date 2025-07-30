@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="donation-container">
+        <form method="GET">
+            <h2>Donor Information</h2>
+
+            <div class="formgroup">
+                <label for="fname">First Name<span>*</span></label>
+                <input class="r" type="text" id="fname" required>
+            </div>
+
+            <div class="formgroup">
+                <label for="lname">Last Name<span>*</span></label>
+                <input class="r" type="text" id="lname" required>
+            </div>
+
+            <div class="formgroup">
+                <label for="company">Company</label>
+                <input class="r" type="text" id="company">
+            </div>
+
+            <div class="formgroup">
+                <label for="address1">Address 1<span>*</span></label>
+                <input class="r" type="text" id="address1" required>
+            </div>
+
+            <div class="formgroup">
+                <label for="address2">Address 2</label>
+                <input class="r" type="text" id="address2">
+            </div>
+
+            <div class="formgroup">
+                <label for="city">City<span>*</span></label>
+                <input class="r" type="text" id="city" required>
+            </div>
+
+            <div class="formgroup">
+                <label for="state">State<span>*</span></label>
+                <select name="state" id="state" required>
+                    <option value="" disabled selected hidden>Select a State</option>
+                       <option value="CA">California</option>
+                    <option value="Los Angles">SA</option>
+                    <option value="New York">Los angles</option>
+                    <option value="California">New York</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Khulna">Khulna</option>
+                </select>
+            </div>
+
+            <div class="formgroup">
+                <label for="zipcode">Zip Code<span>*</span></label>
+                <input class="r" type="number" id="zipcode" required>
+            </div>
+
+            <div class="formgroup">
+                <label for="country">Country<span>*</span></label>
+                <select name="country" id="country" required>
+                    <option value="" disabled selected hidden>Select a Country</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="USA">USA</option>
+                </select>
+            </div>
+
+            <div class="formgroup">
+                <label for="phone">Phone</label>
+                <input class="r" type="number" id="phone">
+            </div>
+
+            <div class="formgroup">
+                <label for="fax">Fax</label>
+                <input class="r" type="text" id="fax">
+            </div>
+
+            <div class="formgroup">
+                <label for="email">Email<span>*</span></label>
+                <input class="r" type="email" id="email" required>
+            </div>
+
+            <div class="formgroup">
+                <label for="donation">Donation Amount<span>*</span>
+                <span class="instructions"> <br> (Check a button or type in your<br> amount)</span>
+                </label>
+                <input type="radio" name="donation" required>None
+                <input type="radio" name="donation">$50
+                <input type="radio" name="donation">$75
+                <input type="radio" name="donation">$100
+                <input type="radio" name="donation">$250
+                <input type="radio" name="donation">Other
+            </div>
+
+            <div class="formgroup">
+                <label for="other">Other amount $</label>
+                <input class="r" type="number" id="other">
+            </div>
+
+            <div class="formgroup">
+                <label for="recurring">Recurring Donation
+                    <span class="instructions"> <br> (Check if yes)</span>
+                </label>
+                <input type="checkbox" name="recurring">I am interested in giving on a regular basis.
+            </div>
+
+            <div class="formgroup">
+                <label for="credit">Monthly Credit Card $</label>
+                    <input class="f" type="number" name="amount"> For 
+                    <input class="f" type="number" name="months"> Months
+            </div>
+
+            <h3>
+                Honorarium and Memorial Donation Information
+            </h3>
+
+            <div class="formgroup">
+                <label for="makedonation">I would like to make this <br> donation</label>
+                <div>
+                    <input type="radio" name="makedonation" required>To Honor<br>
+                    <input type="radio" name="makedonation">In Memory of
+                </div>
+            </div>
+
+            <div class="formgroup">
+                <label for="name">Name</label>
+                <input class="r" type="text" id="name">
+            </div>
+
+            <div class="formgroup">
+                <label for="acknowledge">Acknowledge Donation to</label>
+                <input class="r" type="text" id="acknowledge">
+            </div>
+
+            <div class="formgroup">
+                <label for="address">Address</label>
+                <input class="r" type="text" id="address">
+            </div>
+
+            <div class="formgroup">
+                <label for="city1">City</label>
+                <input class="r" type="text" id="city1">
+            </div>
+
+            <div class="formgroup">
+                <label for="state1">State</label>
+                <select name="state" id="state1">
+                    <option value="" disabled selected hidden>Select a State</option>
+                    <option value="CA">California</option>
+                    <option value="Los Angles">SA</option>
+                    <option value="New York">Los angles</option>
+                    <option value="California">New York</option>
+                    <option value="Dhaka">Dhaka</option>
+                    <option value="Khulna">Khulna</option>
+                </select>
+            </div>
+
+            <div class="formgroup">
+                <label for="zipcode1">Zip Code</label>
+                <input class="r" type="number" id="zipcode1">
+            </div>
+
+            <h3>
+                Additional Information
+            </h3>
+
+            <h4>
+                Please enter yor name, company or organization as you would like it to appear in our publications:
+            </h4>
+               
+            <div class="formgroup">
+                <label for="name1">Name</label>
+                <input class="r" type="text" id="name1">
+            </div>
+            
+            <div>
+                <input type="checkbox" name="choose">I would like my gift to remain anonymous <br>
+                <input type="checkbox" name="choose">My employer offers a matching gift program. I will mail the matching gift form. <br>
+                <input type="checkbox" name="choose">Please save the cpst of acknowledge this gift by not mailing a thank you letter. <br>
+            </div>
+
+            <div class="formgroup">
+                <label for="comment">Comments <span class="instructions"> <br> (Please type any questions or feedback here)</span></label>
+                <input class="g" type="text" id="comment">
+                
+            </div>
+
+            <div class="formgroup">
+                <label for="contact">How may we contact you?</label>
+                <div>
+                    <input type="checkbox" name="e-mail" id="contact">E-mail<br>
+                    <input type="checkbox" name="postalmail" id="contact">Postal Mail<br>
+                    <input type="checkbox" name="telephone" id="contact">Telephone<br>
+                    <input type="checkbox" name="fax" id="contact">Fax<br>
+                </div>
+            </div>
+
+            <div>
+                <p class="font-color">I would like to receive newsletters and information about special events by:</p>
+                <div class="formgroup">
+                    <label for="empty"></label>
+                    <div>
+                        <input type="checkbox" name="e-mail" id="contact">E-mail<br>
+                        <input type="checkbox" name="postalmail" id="contact">Postal Mail<br>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <input type="checkbox" name="choose">I would like information about volunteering with the <br>
+            </div>
+            
+            <hr class="hr">
+
+            <div class="formgroup">
+                <label for="empty"></label>
+                <input class="button" type="reset" value="Reset">&nbsp;
+                <input class="button1" type="submit" value="Continue">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
