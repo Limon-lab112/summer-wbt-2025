@@ -1,0 +1,65 @@
+body {
+    background-color: rgb(242, 240, 237);
+}
+
+
+form {
+    margin-left: 150px;
+}
+
+.form-group {
+    display: flex;
+    align-content: center;
+    margin: 15px;
+}
+
+.form-group label {
+    flex-basis: 300px;
+    text-align: right;
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+h2 {
+    color: red;
+
+}
+
+h3 {
+
+    color: red;
+    display: inline;
+}
+
+
+
+div {
+    text-align: left;
+}
+
+.head a {
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+}
+
+
+.button {
+
+    display: flex;
+    justify-content: center;
+
+}
+
+.button input {
+    padding: 10px;
+    border-radius: 12px;
+
+
+}
+
+.checkbox-color {
+    color: #d9d9d9;
+    margin-left: 200px;
+}

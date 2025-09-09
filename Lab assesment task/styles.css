@@ -1,0 +1,27 @@
+/* Basic styling to match the wireframes */
+* { box-sizing: border-box; }
+body { font-family: Arial, Helvetica, sans-serif; margin: 0; background:#fafafa; }
+.container { max-width: 900px; margin: 24px auto; background: #fff; border: 1px solid #cfcfcf; }
+.header, .footer { padding: 16px; border-bottom: 1px solid #cfcfcf; }
+.footer { border-top: 1px solid #cfcfcf; border-bottom: none; text-align:center; color:#555; }
+.brand { display:flex; align-items:center; gap:10px; font-weight:700; font-size:22px; }
+.brand .x { font-size:28px; }
+.topnav { display:flex; justify-content:space-between; align-items:center; }
+.topnav .links a { margin-left:12px; text-decoration:none; color:#0066cc; }
+.hero { padding: 24px; min-height:160px; border: 1px solid #cfcfcf; margin: 16px; }
+.card { border: 1px solid #cfcfcf; padding: 16px; margin: 16px; background:#fcfcfc; }
+.form-row { display:flex; align-items:center; margin:8px 0; }
+.form-row label { width: 160px; display:inline-block; }
+.form-row input[type="text"], .form-row input[type="password"], .form-row input[type="email"], .form-row input[type="date"] { width: 280px; padding:6px; }
+.small { font-size:12px; color:#666; }
+.grid { display:grid; grid-template-columns: 220px 1fr; gap: 12px; padding: 0 16px 16px; }
+.sidebar { padding: 8px 0 16px; margin-left:16px; }
+.sidebar ul { margin: 0 0 0 16px; padding:0; }
+.sidebar a { text-decoration:none; }
+.notice { padding:12px 16px; background:#eef6ff; border-top:1px solid #cfe3ff; border-bottom:1px solid #cfe3ff; color:#004b91; }
+button, .btn { padding:8px 14px; border:1px solid #999; background:#f4f4f4; cursor:pointer; }
+input[type="submit"]{ padding:8px 14px; }
+.logo { height:28px; width:28px; background:#2ecc71; display:inline-block; border-radius:2px; }
+.avatar { width:120px; height:120px; background:#eee; border-radius:2px; display:block; }
+.caption { color:#333; font-weight:bold; margin-bottom:10px; }
+a { color:#0066cc; }
